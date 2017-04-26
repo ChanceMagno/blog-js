@@ -5,6 +5,7 @@
  .banner img {
     height: 100%;
     width: 100%;
+    border-color: white;
    }
 
 .banner {
@@ -31,6 +32,7 @@ body {
 
 .well {
   background-color: #ef7626;
+  border-color: black;
 }
 
 .media {
@@ -43,4 +45,22 @@ hr {
 
 .articleTitle {
   text-align: center;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.media .well:hover {
+  height: 125%;
+  font-size: 125%;
+}
+
+.row:hover {
+  height: 125%;
 }
