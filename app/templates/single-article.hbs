@@ -1,6 +1,19 @@
-<div class="row">
-  <div class="col-md-offset-4">
-    {{single-article model=car}}
-    {{car.title}} {{model.title}}
+<div class="well">
+  <div class="row">
+    <div class="articleTitle">
+      <h2><strong>{{model.title}}</strong></h2>
+      <h3>{{model.subtitle}}</h3>
+      <h4>By <span>{{model.author}}</span></h4>
+      <hr>
+      <img src={{model.image}} alt={{model.title}} />
+      <br>
+      <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+          <h4>{{model.content}}</h4>
+
+        </div>
+
+      </div>
+    </div>
   </div>
 </div>

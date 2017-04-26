@@ -25,9 +25,9 @@
   text-align: center;
 }
 
-/*body {
+body {
   background-color: black;
-}*/
+}
 
 .well {
   background-color: #ef7626;
@@ -39,4 +39,8 @@
 
 hr {
   border-color: black;
+}
+
+.articleTitle {
+  text-align: center;
 }
