@@ -1,0 +1,13 @@
+<li class="media">
+  {{#link-to 'single-article' car.id}}
+  <div class="well">
+    <div class="media-left media-middle">
+      <img src={{car.image}} alt={{car.title}} />
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading text-center">{{car.title}}</h4>
+      <p>{{car.subtitle}}</p>
+    </div>
+  </div>
+  {{/link-to}}
+</li>

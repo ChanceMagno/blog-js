@@ -1,0 +1,14 @@
+{ "cars": [{
+    "title": "Dodge Demon",
+    "subtitle": "This thing can run a 10 second 1/4 mile right off the showroom floor!",
+    "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae",
+    "author": "Matt Kimberly",
+    "image": "http://s.thestreet.com/files/tsc/v2008/photos/contrib/uploads/226f6f1e-e400-11e6-b4fa-d355c084499f.jpg"
+  }, {
+    "title": "Corvette C6 ZO6",
+    "subtitle": "One of the most iconic american muscle cars ever built, rocking a 7.0L LS7 engine produced by GM.",
+    "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae",
+    "author": "LS is Life",
+    "image": "http://supervettes.supervettesllc.netdna-cdn.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/z/r/zr6x-9_3_1.jpg"
+  }]
+}

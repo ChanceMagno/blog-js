@@ -1,0 +1,42 @@
+.navbar {
+  margin: 0;
+}
+
+ .banner img {
+    height: 100%;
+    width: 100%;
+   }
+
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  height: 400px;
+  width: 1000px;
+}
+
+.{{car.title}} img {
+  height: 200px;
+  width: 350px;
+}
+
+.{{car.subtitle}} p {
+  text-align: center;
+}
+
+/*body {
+  background-color: black;
+}*/
+
+.well {
+  background-color: #ef7626;
+}
+
+.media {
+  background-color: black;
+}
+
+hr {
+  border-color: black;
+}
