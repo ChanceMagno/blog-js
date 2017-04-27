@@ -5,10 +5,12 @@
   "license": "MIT",
   "author": "",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaylorLoftisKim/blog-js.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -42,5 +44,10 @@
   "engines": {
     "node": ">= 4"
   },
-  "private": true
+  "private": true,
+  "main": ".eslintrc.js",
+  "bugs": {
+    "url": "https://github.com/TaylorLoftisKim/blog-js/issues"
+  },
+  "homepage": "https://github.com/TaylorLoftisKim/blog-js#readme"
 }
