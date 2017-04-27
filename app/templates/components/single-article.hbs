@@ -1,2 +1,28 @@
-
-{{single-article model=car destroyCar="destroyCar"}}
+<div class="well">
+  <div class="row">
+    <div class="articleTitle">
+      <h2><strong>{{model.title}}</strong></h2>
+      <h3>{{model.subtitle}}</h3>
+      <h4>By <span>{{model.author}}</span></h4>
+      <hr>
+      <img src={{model.image}} alt={{model.title}} />
+      <br>
+      <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+          <h4>{{model.content}}</h4>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-offset-4 col-md-4">
+              <form>
+                <button class="btn"{{action 'delete' model}}>Delete</button>
+              </form>
+              <br>
+              {{update-article model=model update="update"}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

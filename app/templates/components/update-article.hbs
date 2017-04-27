@@ -1,0 +1,26 @@
+{{#if updateCarForm}}
+<h4>Update {{model.title}}</h4>
+<div class="">
+  <form>
+  <div class="form-group">
+    <label for="author">Author</label>
+    {{input value=author id="author" placeholder=model.author}}
+  </div>
+  <div class="form-group">
+    <label for="title">Title</label>
+    {{input value=title id="title" placeholder=model.title}}
+  </div>
+  <div class="form-group">
+    <label for="content">Content</label>
+    {{input value=content id="content" placeholder=model.content}}
+  </div>
+  <div class="form-group">
+    <label for="image">Image</label>
+    {{input value=image id="image" placeholder=model.image}}
+  </div>
+  <button {{action 'update' model}}>Save</button>
+</form>
+</div>
+{{else}}
+<button {{action 'updateCarForm'}}>Update</button>
+{{/if}}
