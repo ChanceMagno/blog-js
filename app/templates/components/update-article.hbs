@@ -22,9 +22,9 @@
     <label for="image">Image</label>
     {{input value=image id="image" placeholder=model.image}}
   </div>
-  <button {{action 'update' model}}>Save</button>
+  <button class="btn"{{action 'update' model}}>Save</button>
 </form>
 </div>
 {{else}}
-<button {{action 'updateCarForm'}}>Update</button>
+<button class="btn"{{action 'updateCarForm'}}>Update</button>
 {{/if}}
