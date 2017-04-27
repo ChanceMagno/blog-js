@@ -12,12 +12,18 @@ export default Ember.Route.extend({
         }
       });
       model.save();
-      this.transitionTo('index')
+    },
+    saveComment(params) {
+      var newComment = this.store.createRecord('comment', params);
+      var car = params.car;
+      car.get('comments').addObject(newComment);
+      newComment.save().then(function() {
+        return car.save();
+      });
     },
     destroyCar(model) {
           model.destroyRecord();
           this.transitionTo('index');
     }
-
   }
 });
